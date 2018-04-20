@@ -37,46 +37,78 @@
 </head>
 <body>
   <header>
-    <!-- REVIEW: worth it to add srcset to this image? -->
-    <img src="images/header-logo.png" alt="Florida Energy Systems Consortium logo">
+    <img src="images/header-logo-cropped.png" alt="Florida Energy Systems Consortium logo">
+    <h1>Florida Energy Systems Consortium</h1>
+    <p>Universities Addressing Florida's Energy Needs</p>
     <!-- Top Navigation -->
     <nav id="top-nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Research</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="#">Outreach</a></li>
-        <li><a href="#">Facilities</a></li>
-        <li><a href="industry.html">Energy Industry</a></li>
-        <li><a href="#">Advisory Board</a></li>
-        <li><a href="#">Contact Us</a></li>
+      <ul id="main-nav">
+        <li>
+          <a href="index.html">Home</a>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Florida Energy Facts</a></li>
+            <li><a href="#">FESC Conferences</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Research</a>
+          <ul>
+            <li><a href="#">By University</a></li>
+            <li><a href="#">By Research Area</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="education.html">Education</a>
+          <ul>
+            <li><a href="#">Energy Literacy</a></li>
+            <li><a href="#">Energy Education</a></li>
+            <li><a href="#">Institutions &amp; Courses</a></li>
+            <li><a href="#">Energy Jobs</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Outreach</a>
+          <ul>
+            <li><a href="#">Fact Sheets</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Research &amp; News</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Facilities</a>
+        </li>
+        <li>
+          <a href="industry.html">Energy Industry</a>
+          <ul>
+            <li><a href="#">Energy Efficiency</a></li>
+            <li><a href="#">Renewable Energy</a></li>
+            <li><a href="#">Fossil Fuels</a></li>
+            <li><a href="#">Energy Storage</a></li>
+            <li><a href="#">Water Purification</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Advisory Board</a>
+        </li>
+        <li>
+          <a href="#">Contact Us</a>
+        </li>
       </ul>
     </nav>
+    <!-- End Top Navigation -->
   </header>
-  <!-- Side sub-navigation -->
-  <nav id="side-nav">
-    <a href="index.html">Home</a>
-    <ul>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Florida Energy Facts</a></li>
-      <li><a href="#">FESC Expertise</a></li>
-      <li><a href="#">FL University Research</a></li>
-      <li><a href="#">Technology Commercialization</a></li>
-      <li><a href="#">FESC Conferences</a></li>
-      <li><a href="#">Annual Reports</a></li>
-      <li><a href="#">Frequently Asked Questions</a></li>
-      <li><a href="#">Links</a></li>
-    </ul>
-  </nav>
   <article>
-    <h1>FESC: Bringing Energy Solutions to Florida,
-the Nation and the World</h1>
+    <h2>FESC: Bringing Energy Solutions to Florida,
+the Nation and the World</h2>
     <!-- Brochure download button -->
     <aside>
       <button>Download our brochure</button>
     </aside>
     <!-- Video embed iframe -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/YA2ofbdd-G8?rel=0"></iframe>
+    <aside>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YA2ofbdd-G8?rel=0"></iframe>
+    </aside>
     <p>The Florida Energy Systems Consortium (FESC) was created by the Florida State government to promote collaboration among the energy experts at its 12 supported universities to share energy-related expertise. The consortium assists the state in the development and implementation of an environmentally compatible, sustainable, and efficient energy strategic plan. The Consortium was charged to 
     <!-- TODO: Remember to style this span -->
     <span class="inline-quote">&lsquo;perform research and development on innovative energy systems that lead to alternative energy strategies, improved energy efficiencies, and expanded economic development for the state.&rsquo;</span> The legislature appropriated funding for research at five of the universities as well as support for education, outreach, and technology commercialization. The Consortium reports to and provides guidance on an as needed basis to the Florida Legislature, Executive Office of the Governor, and the Florida's Office of Energy housed in the Florida Department of Agriculture and Consumer Services.</p>
@@ -94,9 +126,67 @@ the Nation and the World</h1>
       <li>Provide a state resource for objective energy systems analysis.</li>
 
       <li>Develop education and outreach programs to prepare a qualified energy workforce and informed public.</li>
-      </ol>
+    </ol>
   </article>
   <footer>
+    <!-- Bottom Navigation -->
+    <nav id="bottom-nav">
+      <ul id="main-bottom-nav">
+        <li>
+          <a href="index.html">Home</a>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Florida Energy Facts</a></li>
+            <li><a href="#">FESC Conferences</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Research</a>
+          <ul>
+            <li><a href="#">By University</a></li>
+            <li><a href="#">By Research Area</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="education.html">Education</a>
+          <ul>
+            <li><a href="#">Energy Literacy</a></li>
+            <li><a href="#">Energy Education</a></li>
+            <li><a href="#">Institutions &amp; Courses</a></li>
+            <li><a href="#">Energy Jobs</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Outreach</a>
+          <ul>
+            <li><a href="#">Fact Sheets</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Research &amp; News</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Facilities</a>
+        </li>
+        <li>
+          <a href="industry.html">Energy Industry</a>
+          <ul>
+            <li><a href="#">Energy Efficiency</a></li>
+            <li><a href="#">Renewable Energy</a></li>
+            <li><a href="#">Fossil Fuels</a></li>
+            <li><a href="#">Energy Storage</a></li>
+            <li><a href="#">Water Purification</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Advisory Board</a>
+        </li>
+        <li>
+          <a href="#">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- End Bottom Navigation -->
+
     <!-- Facebook share button -->
     <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fhalleyl.github.io%2Fflorida-energy%2Findex.html&layout=button&size=large&mobile_iframe=true&width=73&height=28&appId" width="73" height="28" style="border:none;overflow:hidden"></iframe>
     
