@@ -74,7 +74,41 @@ h1 + p {
 }
 
 #main-nav {
+  line-height: 3rem;
+  background-color: $main;
   @include nav-flex;
+  font-weight: bold;
+  position: relative;
+  padding-left: 2rem;
+  &>li {
+    width: 100%;
+    padding: 0 .75rem;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  li ul {
+    box-shadow: 3px 3px 5px $light;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    font-weight: normal;
+    background-color: $main-light;
+    a {
+      color: $dark;
+      padding: 2rem;
+    }
+  }
+  &>li:hover {
+    background-color: $main-dark;
+  }
+  &>li:hover ul {
+    display: block;
+  }
+  li li:hover {
+    background-color: $main;
+  }
 }
 
 h2 {

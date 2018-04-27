@@ -41,6 +41,8 @@ h1 + p {
   color: #999999; }
 
 #main-nav {
+  line-height: 3rem;
+  background-color: #CEB36C;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,9 +52,35 @@ h1 + p {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  list-style-type: none; }
+  list-style-type: none;
+  font-weight: bold;
+  position: relative;
+  padding-left: 2rem; }
   #main-nav li {
     list-style-type: none; }
+  #main-nav > li {
+    width: 100%;
+    padding: 0 .75rem; }
+  #main-nav a {
+    color: white;
+    text-decoration: none; }
+  #main-nav li ul {
+    -webkit-box-shadow: 3px 3px 5px #999999;
+            box-shadow: 3px 3px 5px #999999;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    font-weight: normal;
+    background-color: #FFE59B; }
+    #main-nav li ul a {
+      color: #353535;
+      padding: 2rem; }
+  #main-nav > li:hover {
+    background-color: #9B843F; }
+  #main-nav > li:hover ul {
+    display: block; }
+  #main-nav li li:hover {
+    background-color: #CEB36C; }
 
 h2 {
   font-family: "Patua One", serif;
