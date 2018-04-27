@@ -59,12 +59,14 @@ h1 + p {
   #main-nav li {
     list-style-type: none; }
   #main-nav > li {
+    text-indent: 1rem;
     width: 100%;
-    padding: 0 .75rem; }
+    padding: 0; }
   #main-nav a {
     color: white;
     text-decoration: none; }
   #main-nav li ul {
+    text-indent: 0;
     -webkit-box-shadow: 3px 3px 5px #999999;
             box-shadow: 3px 3px 5px #999999;
     display: none;
@@ -74,7 +76,7 @@ h1 + p {
     background-color: #FFE59B; }
     #main-nav li ul a {
       color: #353535;
-      padding: 2rem; }
+      padding: 1.5rem; }
   #main-nav > li:hover {
     background-color: #9B843F; }
   #main-nav > li:hover ul {
@@ -216,5 +218,7 @@ footer {
     font-size: .75rem;
     text-align: center;
     padding: .5rem; }
+  #unis img:hover {
+    opacity: 0.5; }
 
 /*# sourceMappingURL=stylesheet.css.map */
