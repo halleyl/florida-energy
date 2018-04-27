@@ -56,7 +56,7 @@ body {
   }
 }
 
-header > img {
+header img {
   display: block;
   margin: auto;
 }
@@ -104,12 +104,22 @@ h1 + p {
   }
   &>li:hover {
     background-color: $main-dark;
+    text-shadow: 1px 1px 1px $dark;
   }
   &>li:hover ul {
     display: block;
   }
+  &>li:hover i {
+    color: white;
+  }
+  li li {
+    text-shadow: 0 0;
+  }
   li li:hover {
     background-color: $main;
+  }
+  i {
+    color: $main-dark;
   }
 }
 
@@ -156,6 +166,8 @@ iframe {
     background-color: $main;
     font-size: 100%;
     color: white;
+    border: 1px solid $main-dark;
+    box-shadow: 1px 1px $main-dark;
     &:visited {
       background-color: $main;
     }
