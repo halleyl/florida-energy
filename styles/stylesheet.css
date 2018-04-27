@@ -69,7 +69,12 @@ h2 {
 
 article {
   margin: auto;
+  padding: 0 1rem;
   max-width: 50rem; }
+
+.inline-quote {
+  font-style: italic;
+  margin-right: .2rem; }
 
 ol {
   list-style-type: lower-alpha;
@@ -146,6 +151,9 @@ footer {
       color: #353535; }
     #main-bottom-nav a:active {
       color: #353535; }
+  #main-bottom-nav li p {
+    font-weight: normal;
+    font-size: .75rem; }
 
 #social {
   background-color: #FFE59B;

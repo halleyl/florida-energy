@@ -89,7 +89,13 @@ h2 {
 
 article {
   margin: auto;
+  padding: 0 1rem;
   max-width: 50rem;
+}
+
+.inline-quote {
+  font-style: italic;
+  margin-right: .2rem;
 }
 
 ol {
@@ -171,6 +177,10 @@ footer {
     &:active {
       color: $dark;
     }
+  }
+  li p {
+    font-weight: normal;
+    font-size: .75rem;
   }
 }
 
