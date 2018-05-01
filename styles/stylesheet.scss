@@ -1,7 +1,7 @@
 $main: #CEB36C;
 $main-light: #FFE59B;
 $main-lightest: #F6F1E4;
-$main-dark: #4B4228;
+$main-dark: #5E5232;
 
 $accent: #00784B;
 $accent-light: #46A877;
@@ -108,7 +108,7 @@ h1 + p {
     }
   }
   &>li:hover {
-    background-color: $dark;
+    background-color: $main-dark;
     text-shadow: 1px 1px 1px $dark;
   }
   &>li:hover ul {

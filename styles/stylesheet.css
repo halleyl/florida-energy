@@ -81,7 +81,7 @@ h1 + p {
       color: #353535;
       padding: 1.5rem; }
   #main-nav > li:hover {
-    background-color: #353535;
+    background-color: #5E5232;
     text-shadow: 1px 1px 1px #353535; }
   #main-nav > li:hover ul {
     display: block; }
@@ -92,7 +92,7 @@ h1 + p {
   #main-nav li li:hover {
     background-color: #F6F1E4; }
   #main-nav i {
-    color: #4B4228; }
+    color: #5E5232; }
 
 /* Define breakpoints for top nav */
 @media (max-width: 1000px) {
@@ -163,13 +163,13 @@ iframe {
     background-color: #FFE59B;
     font-size: 100%;
     color: #353535;
-    border: 1px solid #4B4228;
-    -webkit-box-shadow: 1px 1px #4B4228;
-            box-shadow: 1px 1px #4B4228; }
+    border: 1px solid #5E5232;
+    -webkit-box-shadow: 1px 1px #5E5232;
+            box-shadow: 1px 1px #5E5232; }
     #asides button:visited {
       background-color: #CEB36C; }
     #asides button:hover {
-      background-color: #4B4228;
+      background-color: #5E5232;
       color: white; }
     #asides button:active {
       background-color: #353535; }
@@ -233,7 +233,7 @@ footer {
     list-style-type: none; }
   #main-bottom-nav > li {
     padding-left: .5rem;
-    border-left: 1px solid #4B4228;
+    border-left: 1px solid #5E5232;
     font-weight: bold;
     line-height: 2rem; }
     #main-bottom-nav > li:first-of-type {
