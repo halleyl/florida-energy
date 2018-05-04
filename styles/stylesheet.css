@@ -43,6 +43,13 @@ h1 + p {
   letter-spacing: .2rem;
   color: #999999; }
 
+/* add padding to h1 and subheader on narrow width */
+@media (max-width: 800px) {
+  h1 {
+    padding: 0 3rem; }
+
+  h1 + p {
+    padding: 0 2rem; } }
 #main-nav {
   line-height: 3rem;
   background-color: #CEB36C;
@@ -111,7 +118,8 @@ h1 + p {
 @media (max-width: 800px) {
   #main-nav {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+    padding-left: 0; }
 
   #main-nav > li {
     width: 30%; }

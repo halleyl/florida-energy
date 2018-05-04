@@ -78,6 +78,17 @@ h1 + p {
   color: $light;
 }
 
+/* add padding to h1 and subheader on narrow width */
+@media(max-width:800px) {
+  h1 {
+    padding: 0 3rem;
+  }
+  h1 + p {
+    padding: 0 2rem;
+  }
+}
+
+
 #main-nav {
   line-height: 3rem;
   background-color: $main;
@@ -150,6 +161,7 @@ h1 + p {
 @media(max-width:800px) {
   #main-nav {
     flex-wrap: wrap;
+    padding-left: 0;
   }
   #main-nav > li {
     width: 30%;
