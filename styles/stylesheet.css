@@ -388,7 +388,8 @@ footer {
   #unis {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding: .5rem; }
+    padding: .5rem 1rem;
+    margin: 0 1rem; }
 
   #unis img {
     padding: .25rem; } }
