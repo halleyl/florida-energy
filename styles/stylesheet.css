@@ -71,7 +71,10 @@ h1 + p {
   #main-nav > li {
     text-indent: 1rem;
     width: 100%;
-    padding: 0; }
+    padding: 0;
+    /* Transition for subtle fade-in of hover effect */
+    -webkit-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out; }
   #main-nav a {
     color: white;
     text-decoration: none; }
@@ -95,7 +98,10 @@ h1 + p {
   #main-nav > li:hover i {
     color: white; }
   #main-nav li li {
-    text-shadow: 0 0; }
+    text-shadow: 0 0;
+    /* Transition for subtle fade-in of hover effect */
+    -webkit-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out; }
   #main-nav li li:hover {
     background-color: #F6F1E4; }
   #main-nav i {
@@ -103,6 +109,13 @@ h1 + p {
 
 /* Define breakpoints for top nav */
 @media (max-width: 1000px) {
+  #main-nav {
+    padding-left: 0; }
+
+  #main-nav li {
+    text-align: center;
+    text-indent: 0; }
+
   #main-nav li ul {
     padding: 0;
     margin: 0;
@@ -147,6 +160,19 @@ article {
   padding: 1rem 1rem;
   max-width: 50rem; }
 
+article img {
+  float: right;
+  margin: 1rem;
+  max-width: 50%;
+  border: 1px solid #353535; }
+
+/*  */
+@media (max-width: 800px) {
+  article img {
+    float: none;
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%; } }
 .inline-quote {
   font-style: italic;
   margin-right: .2rem; }
