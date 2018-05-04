@@ -387,7 +387,8 @@ footer {
 @media (max-width: 1000px) {
   #unis {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+    padding: .5rem; }
 
   #unis img {
     padding: .25rem; } }
