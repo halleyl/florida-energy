@@ -146,6 +146,11 @@ h2 {
   font-family: "Patua One", serif;
   margin: 1rem 0 .5rem 0; }
 
+#data-h2 {
+  margin: auto;
+  padding: 2rem 1rem 0 1rem;
+  max-width: 50rem; }
+
 #content {
   display: -webkit-box;
   display: -ms-flexbox;
