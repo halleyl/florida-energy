@@ -194,10 +194,16 @@ h2 {
   flex-direction: row;
 }
 
+#data {
+  display:flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
 #data-h2 {
   margin: auto;
   padding: 2rem 1rem;
-  max-width: 50rem;
+  width: 90%;
 }
 
 article {
@@ -218,12 +224,13 @@ article {
 
 @media(max-width:800px){
   #renewable {
-    padding: 0;
+    padding: 1rem;
     width: 90%;
+    margin-bottom: 1rem;
   }
 
   #consumption {
-    padding: 0;
+    padding: 1rem;
     width: 90%;
   }
 }
