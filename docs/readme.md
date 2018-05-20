@@ -12,4 +12,6 @@
   
   I chose a Line Chart for this data, because it also shows a time-based progression of energy use. I could have used an Area Chart as well, but I wanted to use 2 different charts to get more practice. I reversed the hAxis of this data as well, so that it displayed chronologically.
 
->Because the data sets share a common time frame, it would have been especially interesting to show the two within the same chart for comparison (however, that wasn't the assignment.)
+---
+
+Because the data sets share a common time frame, it would have been especially interesting to show the two within the same chart for comparison (however, that wasn't the assignment.)
