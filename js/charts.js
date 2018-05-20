@@ -68,6 +68,7 @@ function drawRenewChart() {
 
   var options = {
     title: 'Renewable energy production in Florida',
+    titleTextStyle: {fontSize: '16'},
     hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
     vAxis: {minValue: 0},
     width: '100%',
@@ -76,7 +77,8 @@ function drawRenewChart() {
     legend: {position: 'top'},
     colors: ['#00784b','#46a877'],
     hAxis: {direction: -1},
-    animation: {duration: 1000, startup: true}
+    animation: {duration: 1000, startup: true},
+    backgroundColor: '#f9f9f9'
   };
 
   var chart = new google.visualization.AreaChart(document.getElementById('renewable'));
@@ -150,13 +152,15 @@ function drawConsChart() {
     ]);
   var options = {
     title: 'Electricity total consumption in Florida',
+    titleTextStyle: {fontSize: '16'},
     width: '100%',
     height: 400,
     chartArea: {'width': '70%', 'height': "80%"},
     legend: {position: 'top'},
     hAxis: {direction: -1},
     colors: ['#981c1e'],
-    animation: {duration: 1000, startup: true}
+    animation: {duration: 1000, startup: true},
+    backgroundColor: '#f9f9f9'
   };
 
   var chart = new google.visualization.LineChart(
@@ -164,3 +168,4 @@ function drawConsChart() {
 
   chart.draw(data, options);
 }
+

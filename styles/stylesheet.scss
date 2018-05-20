@@ -189,21 +189,43 @@ h2 {
   margin: 1rem 0 .5rem 0;
 }
 
-#data-h2 {
-  margin: auto;
-  padding: 2rem 1rem 0 1rem;
-  max-width: 50rem;
-}
-
 #content {
   display: flex;
   flex-direction: row;
+}
+
+#data-h2 {
+  margin: auto;
+  padding: 2rem 1rem;
+  max-width: 50rem;
 }
 
 article {
   margin: auto;
   padding: 1rem 1rem;
   max-width: 50rem;
+}
+
+#renewable {
+  padding: 0;
+  width: 45%;
+}
+
+#consumption {
+  padding: 0;
+  width: 45%;
+}
+
+@media(max-width:800px){
+  #renewable {
+    padding: 0;
+    width: 90%;
+  }
+
+  #consumption {
+    padding: 0;
+    width: 90%;
+  }
 }
 
 article img {
