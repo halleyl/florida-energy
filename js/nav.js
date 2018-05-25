@@ -58,3 +58,7 @@ var app = new Vue({
 var app = new Vue({
   el: '#top-logo'
 })
+
+var app = new Vue({
+  el: '#uni-copy'
+})
