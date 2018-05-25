@@ -54,3 +54,7 @@ var app = new Vue({
     industry: navIndustry
   }
 })
+
+var app = new Vue({
+  el: '#top-logo'
+})
