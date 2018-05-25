@@ -28,7 +28,8 @@
   <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
   <link href="styles/stylesheet.css" rel="stylesheet">
   <!-- End Stylesheets -->
-
+  <!-- Vue loader -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script type="text/javascript" src="js/charts.js"></script>
 </head>
@@ -44,50 +45,35 @@
           <a href="index.html">Home</a>
           <i class="fas fa-caret-down"></i>
           <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Florida Energy Facts</a></li>
-            <li><a href="#">FESC Conferences</a></li>
-            <li><a href="#">Advisory Board</a></li>
-            <li><a href="#">Facilities</a></li>
+            <li v-for="hitem in home"><a :href="hitem.url">{{ hitem.name }}</a></li>
           </ul>
         </li>
         <li>
           <a href="#">Research</a>
           <i class="fas fa-caret-down"></i>
           <ul>
-            <li><a href="#">By University</a></li>
-            <li><a href="#">By Research Area</a></li>
+            <li v-for="ritem in research"><a :href="ritem.url">{{ ritem.name }}</a></li>
           </ul>
         </li>
         <li>
           <a href="education.html">Education</a>
           <i class="fas fa-caret-down"></i>
           <ul>
-            <li><a href="#">Energy Literacy</a></li>
-            <li><a href="#">Energy Education</a></li>
-            <li><a href="#">Institutions &amp; Courses</a></li>
-            <li><a href="#">Energy Jobs</a></li>
+            <li v-for="eitem in education"><a :href="eitem.url">{{ eitem.name }}</a></li>
           </ul>
         </li>
         <li>
           <a href="#">Outreach</a>
           <i class="fas fa-caret-down"></i>
           <ul>
-            <li><a href="#">Fact Sheets</a></li>
-            <li><a href="#">Videos</a></li>
-            <li><a href="#">Research &amp; News</a></li>
+            <li v-for="oitem in outreach"><a :href="oitem.url">{{ oitem.name }}</a></li>
           </ul>
         </li>
         <li>
           <a href="industry.html">Industry</a>
           <i class="fas fa-caret-down"></i>
           <ul>
-            <li><a href="data.html">Energy Data</a></li>
-            <li><a href="#">Energy Efficiency</a></li>
-            <li><a href="#">Renewable Energy</a></li>
-            <li><a href="#">Fossil Fuels</a></li>
-            <li><a href="#">Energy Storage</a></li>
-            <li><a href="#">Water Purification</a></li>
+            <li v-for="iitem in industry"><a :href="iitem.url">{{ iitem.name }}</a></li>
           </ul>
         </li>
         <li>
@@ -109,47 +95,31 @@
         <li>
           <a href="index.html">Home</a>
           <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Florida Energy Facts</a></li>
-            <li><a href="#">FESC Conferences</a></li>
-            <li><a href="#">Advisory Board</a></li>
-            <li><a href="#">Facilities</a></li>
-
+            <li v-for="hitem in home"><a :href="hitem.url">{{ hitem.name }}</a></li>
           </ul>
         </li>
         <li>
           <a href="#">Research</a>
           <ul>
-            <li><a href="#">By University</a></li>
-            <li><a href="#">By Research Area</a></li>
+            <li v-for="ritem in research"><a :href="ritem.url">{{ ritem.name }}</a></li>
           </ul>
         </li>
         <li>
           <a href="education.html">Education</a>
           <ul>
-            <li><a href="#">Energy Literacy</a></li>
-            <li><a href="#">Energy Education</a></li>
-            <li><a href="#">Institutions &amp; Courses</a></li>
-            <li><a href="#">Energy Jobs</a></li>
+            <li v-for="eitem in education"><a :href="eitem.url">{{ eitem.name }}</a></li>
           </ul>
         </li>
         <li>
           <a href="#">Outreach</a>
           <ul>
-            <li><a href="#">Fact Sheets</a></li>
-            <li><a href="#">Videos</a></li>
-            <li><a href="#">Research &amp; News</a></li>
+            <li v-for="oitem in outreach"><a :href="oitem.url">{{ oitem.name }}</a></li>
           </ul>
         </li>
         <li>
           <a href="industry.html">Industry</a>
           <ul>
-            <li><a href="data.html">Energy Data</a></li>
-            <li><a href="#">Energy Efficiency</a></li>
-            <li><a href="#">Renewable Energy</a></li>
-            <li><a href="#">Fossil Fuels</a></li>
-            <li><a href="#">Energy Storage</a></li>
-            <li><a href="#">Water Purification</a></li>
+            <li v-for="iitem in industry"><a :href="iitem.url">{{ iitem.name }}</a></li>
           </ul>
         </li>
         <li>
@@ -180,5 +150,6 @@
     </div>
     <p>© 2008-2018 Florida Energy Systems Consortium.</p>
   </footer>
+  <script src="js/nav.js"></script>
 </body>
 </html>
