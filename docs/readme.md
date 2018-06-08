@@ -2,11 +2,17 @@
 
   ## Renewable energy production in Florida
   
+  [API Documentation]
+  (https://www.eia.gov/opendata/qb.php?category=40426&sdid=SEDS.REPRB.FL.A)
+  
   [Area Chart](https://developers.google.com/chart/interactive/docs/gallery/areachart)
   
   I chose an Area Chart for this data, because I thought that it best showed the growth of renewable energy generation over time. I chose to display the hAxis data in reverse so that it progressed chronologically to show growth.
   
   ## Electricity total consumption in Florida
+  
+  [API Documentation]
+  (https://www.eia.gov/opendata/qb.php?category=40236&sdid=SEDS.TETCB.FL.A)
   
   [Line Chart](https://developers.google.com/chart/interactive/docs/gallery/linechart)
   
