@@ -81,7 +81,7 @@ function getConsData(){
   // Create a new request object
   let request = new XMLHttpRequest()
   // Set HTTP Request URL
-  let requestUrl = "http://api.eia.gov/series/?api_key=43fd391551b1a57ac02073fb37571ca7&series_id=SEDS.TETCB.FL.A"
+  let requestUrl = "https://api.eia.gov/series/?api_key=43fd391551b1a57ac02073fb37571ca7&series_id=SEDS.TETCB.FL.A"
   // Open a connection
   request.open('GET', requestUrl, true)
   // Callback for when the request completes
