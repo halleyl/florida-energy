@@ -2,8 +2,7 @@
 
   ## Renewable energy production in Florida
   
-  [API Documentation]
-  (https://www.eia.gov/opendata/qb.php?category=40426&sdid=SEDS.REPRB.FL.A)
+  [API Documentation](https://www.eia.gov/opendata/qb.php?category=40426&sdid=SEDS.REPRB.FL.A)
   
   [Area Chart](https://developers.google.com/chart/interactive/docs/gallery/areachart)
   
@@ -11,8 +10,7 @@
   
   ## Electricity total consumption in Florida
   
-  [API Documentation]
-  (https://www.eia.gov/opendata/qb.php?category=40236&sdid=SEDS.TETCB.FL.A)
+  [API Documentation](https://www.eia.gov/opendata/qb.php?category=40236&sdid=SEDS.TETCB.FL.A)
   
   [Line Chart](https://developers.google.com/chart/interactive/docs/gallery/linechart)
   
